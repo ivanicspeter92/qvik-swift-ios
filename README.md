@@ -21,6 +21,9 @@ import QvikSwift
 
 ## Changelog
 
+* 4.0.3
+    * Converted to Swift 4.2 / Xcode 10 recommended settings
+    * Resolved deprecation warnings
 * 4.0.0
     * Converted to Swift 4 / Xcode 9 recommended settings
 * 3.0.2
