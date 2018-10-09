@@ -116,7 +116,7 @@ public extension String {
         let start = characters.index(startIndex, offsetBy: r.lowerBound)
         let end = characters.index(start, offsetBy: r.upperBound - r.lowerBound)
         
-        return String(self[Range(start ..< end)])
+        return String(self[start ..< end])
     }
 
     /**
